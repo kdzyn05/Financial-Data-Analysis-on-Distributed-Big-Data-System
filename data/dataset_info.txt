@@ -1,0 +1,11 @@
+Dataset:
+Financial Fraud Detection Dataset
+
+Source:
+Kaggle
+
+Records:
+550000
+
+Target:
+is_fraud
