@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-05-11T05:14:37.976640",
+  "quality_checks": [
+    {
+      "rule_id": "R001_amount_not_null",
+      "passed": true
+    },
+    {
+      "rule_id": "R002_txn_id_unique",
+      "passed": true
+    },
+    {
+      "rule_id": "R003_amount_range",
+      "passed": true
+    }
+  ],
+  "fraud_stats": {
+    "total": 550000,
+    "fraud": 4873,
+    "normal": 545127,
+    "fraud_rate_pct": 0.886
+  },
+  "user_roles": {
+    "admin": [
+      "read",
+      "write",
+      "decrypt",
+      "export"
+    ],
+    "analyst": [
+      "read",
+      "decrypt",
+      "export"
+    ],
+    "viewer": [
+      "read"
+    ]
+  }
+}
